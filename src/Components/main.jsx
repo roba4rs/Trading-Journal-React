@@ -91,7 +91,11 @@ const symbols = [];
     return (
         <>
             <div className="main-content">
-                <DashBoard account ={account}/>
+                <DashBoard account ={account.company}  name = 'Compnay Name'/>
+                <DashBoard account ={account.name}  name = 'Traders Name'/>
+                <DashBoard account ={account.profit}  name = 'Net P&L'/>
+                <DashBoard account ={account.equity}  name = 'Equity'/>
+                <DashBoard account ={account.server}  name = 'Compnay Name'/>
             </div>
 
             <div className="charts">
