@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    background-color: rgb(40 40 40);
+    height: 50px;
+    align-items: center;
+    padding-right: 20px;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(65, 63, 63);
+}
+.left-section {
+    display: flex;
+    flex: 1;
+    color: white;
+    justify-content: start;
+    padding-left: 57px;
+    align-items: center;
+}
+.right-section {
+    display: flex;
+    width: 100px;
+    justify-content: end;
+}
+.notification-bell {
+    width: 22px;
+}
+.user-profile {
+    width: 22px;
+    padding-left: 13px;
+}
+.menu {
+    margin-right: 30px;
+    font-size: 15px;
+    color: rgb(161, 158, 158);
+    cursor: pointer;
+}
+.logo {
+    width: 24px;
+    padding-right: 30px;
+}
+.menu:hover {
+    color: white;
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
